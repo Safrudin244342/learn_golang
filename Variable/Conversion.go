@@ -10,7 +10,7 @@ func main() {
 	fmt.Println(nilai64)
 
 	var nama string = "azis"
-	var huruf = nama[0]
+	var huruf byte = nama[0]
 	var Shuruf = string(huruf)
 
 	fmt.Println(nama)
